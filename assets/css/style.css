@@ -8,7 +8,10 @@
 
 body {
     background-color: #d9dcd6;
+    background-image: url("../images/Boxes.jpeg");
+    background-attachment: scroll;
 }
+
 /* style affecting header */
 header {
     padding: 20px;
@@ -16,6 +19,7 @@ header {
     background-color: #151616;
     color: #ffffff;
 }
+
 /* style the h1 of header */
 header h1 {
     display: inline-block;
@@ -57,9 +61,10 @@ p {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/Boy-Asleep.jpeg");
-    background-size:contain;
-    background-repeat:repeat;
+    background-size: contain;
+    background-repeat: repeat;
     background-position: center;
+    background-attachment: scroll;
 }
 
 
@@ -69,7 +74,10 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing,
+.butt {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -78,7 +86,10 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img,
+.butt img {
     max-height: 200px;
 }
 
@@ -88,7 +99,10 @@ p {
     margin-right: 25px;
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2,
+.butt h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
