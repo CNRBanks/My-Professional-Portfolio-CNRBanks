@@ -20,7 +20,7 @@ THEN that application's image should be larger in size than the others<DONE?>
 
 ## 5)
 WHEN I click on the images of the applications
-THEN I am taken to that deployed application
+THEN I am taken to that deployed application<DONE>
 
 ## 6)
 WHEN I resize the page or view the site on various screens and devices

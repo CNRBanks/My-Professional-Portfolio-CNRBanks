@@ -3,6 +3,7 @@
     --black: #000000;
     --white: #ffffff;
     --grey: #88888a;
+    --heliotrope: #e866ec;
 }
 
 * {
@@ -62,7 +63,7 @@ p {
 
 .profile {
     height: 200px;
-    width: 120px;
+    width: 200px;
     margin: 25px;
     background-size: contain;
     background-image: url("../images/Professional-Photo.jpg");
@@ -76,9 +77,8 @@ p {
     height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/Boy-Asleep.jpeg");
+    background-image: url("../images/Boxes.jpeg");
     background-size: contain;
-    background-repeat: repeat;
     background-position: center;
     background-attachment: scroll;
 }
@@ -92,6 +92,8 @@ p {
 }
 
 .engineering-projects {
+    margin:auto;
+    width: 95%;
     margin-bottom: 25px;
     padding: 70px;
     height: 450px;
@@ -100,11 +102,24 @@ p {
     color: var(--white);
 }
 
-.fine-art-projects,
-.contact-me,
-.about-me {
+.about-contact-me {
+    float: right;
+    width: 40%;
+    flex: 0 0 400px;
+    padding: 25px;
+    /* when the screen resizes, make it so our columns don't jump in size */
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+    background-color: var(--grey);
+    color: var(--white)
+}
+
+.fine-art-projects, .TBD {
+    flex: 0 0 400px;
+    float:left;
+    width: 40%;
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 25px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--grey);
@@ -113,8 +128,8 @@ p {
 
 .engineering-projects img,
 .fine-art-projects img,
-.contact-me img,
-.about-me img {
+.about-contact-me img,
+.TBD img {
     max-height: 200px;
 }
 
@@ -126,8 +141,8 @@ p {
 
 .engineering-projects h2,
 .fine-art-projects h2,
-.contact-me h2,
-.about-me h2 {
+.about-contact-me h2,
+.TBD {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -136,6 +151,11 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+.test:hover {
+  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+  box-shadow: #e866ec;
 }
 
 /* side menu, not sure if necessary to keep yet 
