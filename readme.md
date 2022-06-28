@@ -1,12 +1,14 @@
 ## Acceptance Criteria
 GIVEN I need to sample a potential employee's previous work
 
-## 1) WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+## 1) 
+WHEN I load their portfolio
+
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them <DONE?>
 
 ## 2) 
 WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
+THEN the UI scrolls to the corresponding section <DONE?>
 
 ## 3) 
 WHEN I click on the link to the section about their work
@@ -14,7 +16,7 @@ THEN the UI scrolls to a section with titled images of the developer's applicati
 
 ## 4)
 WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
+THEN that application's image should be larger in size than the others<DONE?>
 
 ## 5)
 WHEN I click on the images of the applications
