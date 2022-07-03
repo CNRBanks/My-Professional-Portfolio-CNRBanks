@@ -27,6 +27,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ## THINGS I WANT TO KNOW HOW TO DO/FIX ----
+
 highlight each of the sections, not just the engineering projects
 
 make the profile not take up so much space
