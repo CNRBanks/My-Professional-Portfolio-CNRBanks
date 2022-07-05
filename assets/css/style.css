@@ -17,12 +17,15 @@
 header nav {
     margin-bottom: 10px;
     padding-top: -50px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 45px;
+    margin-left: 20px;
+    margin-right: 50px;
+    float: left;
+    flex-wrap: wrap;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    position:sticky;
+    font-size: 25px;
 }
-*/
 
 /* style affecting body */
 body {
@@ -34,22 +37,29 @@ body {
 header {
     padding: 10px;
     float: left;
-    height: 100%;
     width: 25%;
     margin: 5%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: var(--grey);
     color: var(--black);
     border-style: ridge;
     border-color: var(--black);
+    flex-wrap: wrap;
+    display: flex;
 }
 
 /* style the h1 of header */
 header h1 {
+    margin-left: 20px;
     display: inline-block;
     font-size: 48px;
     color: var(--white);
+    font-weight: 500;
+    flex-wrap: wrap;
+    display: flex;
+    position:sticky;
 }
+
 /* determines style of list element in the header */
 header nav ul li {
     display: block;
@@ -60,31 +70,37 @@ a {
     text-decoration: none;
 }
 
+/* provides styling to all paragraphs on the site */
 p {
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: var(--white);
 }
+
 /* styles the image in the header */
 .profile {
     height: 200px;
     width: 200px;
+    position:relative;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 60px;
     margin: 25px;
     background-size: cover;
     background-image: url("../images/Professional-Photo.jpg");
-    background-position:center;
-    background-repeat:no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 75%;
     border-style: ridge;
-    font-display: var(--white)
-
 }
+
 /* determines the style of the background */
 .background {
-    height: 500px;
+    height: 1000px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/Boxes.jpeg");
-    background-size: contain;
+    background-size:cover;
     background-position: center;
     background-attachment: scroll;
 }
@@ -96,7 +112,7 @@ p {
     margin-left: 20px;
     column-count: 3;
 }
-
+/* styles the main engineering projects section on the page */
 .engineering-projects {
     border-style: ridge;
     border-width: 100%;
@@ -108,12 +124,12 @@ p {
     margin-bottom: 25px;
     padding: 70px;
     height: 450px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: var(--grey);
     color: var(--white);
 
 }
-
+/* styles the about me and contact me sections on the page */
 .about-contact-me {
     border-style: ridge;
     border-width: 100%;
@@ -125,11 +141,10 @@ p {
     margin-bottom: 20px;
     padding: 25px;
     height: 300px;
-    transition: flex-basis 500ms linear;
     background-color: var(--grey);
     color: var(--white);
 }
-
+/* styles the art projects and other engineering projects sections on the page */
 .fine-art-projects,
 .TBD {
     border-style: ridge;
@@ -142,44 +157,40 @@ p {
     margin-bottom: 20px;
     padding: 25px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: var(--grey);
     color: var(--white);
 }
 
-.engineering-projects img,
-.fine-art-projects img,
-.about-contact-me img,
-.TBD img {
+/* styles the image icon in the main engineering projects box */
+.engineering-projects img {
     max-height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-}
-/* styles the small image icon each box */
-.img-icon {
-    float:none;
     margin-right: 5px;
+    margin-top: 10px;
 }
+
 /* determines style of h2 in each of the listed sections */
 .engineering-projects h2,
 .fine-art-projects h2,
 .about-contact-me h2,
 .TBD h2 {
+    padding: 10px;
     margin-bottom: 20px;
     font-size: 36px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
-/* creates hover shadow of boxes */
-.test:hover {
-    box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
-    box-shadow: #e866ec;
-}
+
 /* determines style of footer */
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
+
 /* styles h2 of the footer */
 footer h2 {
     font-size: 20px;
