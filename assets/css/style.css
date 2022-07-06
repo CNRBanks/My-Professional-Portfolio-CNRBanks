@@ -1,17 +1,29 @@
-/* general styles */
+/* root styles that can be used throughout the project */
 :root {
     --black: #000000;
     --white: #ffffff;
     --grey: #88888a;
-    --heliotrope: #e866ec;
 }
 
+/* general styles */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* determines the color and decoration of all anchor elements within the page */
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* provides styling to all paragraphs on the site */
+p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--white);
+}
 
 /* styles the text within the navigation menu within the header */
 header nav {
@@ -23,14 +35,8 @@ header nav {
     flex-wrap: wrap;
     display: flex;
     font-family: 'Raleway', sans-serif;
-    position:sticky;
+    position: sticky;
     font-size: 25px;
-}
-
-/* style affecting body */
-body {
-    background-color: var(--white);
-    background-attachment: scroll;
 }
 
 /* style affecting header */
@@ -54,10 +60,10 @@ header h1 {
     display: inline-block;
     font-size: 48px;
     color: var(--white);
-    font-weight: 500;
+    font-weight: 400;
     flex-wrap: wrap;
     display: flex;
-    position:sticky;
+    position: sticky;
 }
 
 /* determines style of list element in the header */
@@ -65,23 +71,11 @@ header nav ul li {
     display: block;
 }
 
-a {
-    color: var(--white);
-    text-decoration: none;
-}
-
-/* provides styling to all paragraphs on the site */
-p {
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    color: var(--white);
-}
-
 /* styles the image in the header */
 .profile {
     height: 200px;
     width: 200px;
-    position:relative;
+    position: relative;
     flex-wrap: wrap;
     display: flex;
     margin-left: 60px;
@@ -94,24 +88,31 @@ p {
     border-style: ridge;
 }
 
+/* style affecting body */
+body {
+    background-color: var(--white);
+    background-attachment: scroll;
+}
+
 /* determines the style of the background */
 .background {
     height: 1000px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/Boxes.jpeg");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-attachment: scroll;
 }
 
-
+/* determines styling of main section of the page */
 .content {
     width: 75%;
     display: contents;
     margin-left: 20px;
     column-count: 3;
 }
+
 /* styles the main engineering projects section on the page */
 .engineering-projects {
     border-style: ridge;
@@ -129,6 +130,7 @@ p {
     color: var(--white);
 
 }
+
 /* styles the about me and contact me sections on the page */
 .about-contact-me {
     border-style: ridge;
@@ -144,6 +146,7 @@ p {
     background-color: var(--grey);
     color: var(--white);
 }
+
 /* styles the art projects and other engineering projects sections on the page */
 .fine-art-projects,
 .TBD {
