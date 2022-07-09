@@ -166,7 +166,7 @@ body {
 }
 
 /* styles the image icon in the main engineering projects box */
-.engineering-projects img {
+.engineering-projects img, .TBD img {
     max-height: 100px;
     width: 50px;
     height: 50px;
