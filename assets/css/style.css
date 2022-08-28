@@ -115,7 +115,7 @@ body {
 }
 
 /* styles the main engineering projects section on the page */
-.engineering-projects {
+.projects {
   border-style: ridge;
   border-width: 100%;
   border-color: var(--black);
@@ -126,10 +126,15 @@ body {
   width: 95%;
   margin-bottom: 25px;
   padding: 70px;
-  height: 450px;
+  height: auto;
   font-family: "Raleway", sans-serif;
   background-color: var(--grey);
   color: var(--white);
+}
+
+.toggleProjects {
+  border: 5px solid red;
+  /* padding-bottom: 300px; */
 }
 
 /* styles the about me and contact me sections on the page */
@@ -143,6 +148,7 @@ body {
   display: flex;
   float: right;
   width: 49%;
+  /* margin-top: */
   margin-bottom: 20px;
   padding: 25px;
   height: 300px;
@@ -170,7 +176,7 @@ body {
 }
 
 /* styles the image icon in the main engineering projects box */
-.engineering-projects img,
+.projects img,
 .other-projects img {
   max-height: 100px;
   width: 50px;
@@ -233,6 +239,6 @@ footer h2 {
 }
 
 .img-icon {
-margin: 20px;
-text-align: center;
+  margin: 20px;
+  text-align: center;
 }

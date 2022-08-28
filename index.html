@@ -52,17 +52,17 @@
     </header>
     <div class="background"></div>
     <main class="content">
-        <section id="engineering-projects" class="engineering-projects">
+        <section id="engineering-project" class="projects">
         <div class="accordion" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
               <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="btn btn-link collapseBtn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
                   Gifter - The App That Keeps on Giving
                 </button>
               </h2>
             </div>
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
                 The Gifter application allows users to schedule events for a date of their choice and send gift cards to friends or family on the day of the event.
                 When scheduling the event the user has the option to select a gift card type from a list of available gift cards, and write messages to be sent out to whoever's email they would like. 
@@ -81,7 +81,7 @@
           <div class="card">
             <div class="card-header" id="headingTwo">
               <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="btn btn-link collapseBtn" type="button" data-toggle="collapse" data-target="#collapseTwo"  aria-controls="collapseTwo">
                   Random Password Generator
                 </button>
               </h2>
@@ -102,7 +102,7 @@
           <div class="card">
             <div class="card-header" id="headingThree">
               <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="btn btn-link collapseBtn" type="button" data-toggle="collapse" data-target="#collapseThree"  aria-controls="collapseThree">
                   Scheduler Template
                 </button>
               </h2>
@@ -184,12 +184,10 @@
         </p>
       </section>
     </main>
-    
 
     <footer>
       <h2>Made by Connor Banks Tamminen</h2>
     </footer>
-    <script src="/assets/js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script
@@ -207,5 +205,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
